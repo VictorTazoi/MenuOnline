@@ -6,7 +6,7 @@ include('php/definicoes.php')
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title><?php echo ($nome); ?> - Nome da página</title>
+        <title><?php echo ($nome); ?> - Menu Principal</title>
         <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
         <link href="css/principal.css" rel="stylesheet">
     </head>
