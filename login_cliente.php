@@ -6,10 +6,10 @@ include('php/definicoes.php')
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title><?php echo ($nome); ?> - Login Estabelecimento</title>
+        <title><?php echo ($nome); ?> - Login Cliente</title>
         <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
         <link href="css/principal.css" rel="stylesheet">
-        <link href="css/login_estabelecimento.css" rel="stylesheet">
+        <link href="css/login_cliente.css" rel="stylesheet">
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-custom">
@@ -26,7 +26,7 @@ include('php/definicoes.php')
         <div class="conteudo-1">
             <div class="card card-login" style="width: 30em;"> <!-- Caixa de login -->
                 <div class="card-body">
-                    <h5 class="card-title titulo-card-custom">Entrar como Estabelecimento</h5>
+                    <h5 class="card-title titulo-card-custom">Entrar como Cliente</h5>
                     <div class="login-box">
                         <form>
                             <div class="mb-3">
@@ -46,7 +46,7 @@ include('php/definicoes.php')
                             <div class="ou-custom">ou</div>
                         </form>
                         <div class="botao-cadastro">
-                            <a href="cadastro_estabelecimento.php" class="btn botoes-custom">Cadastrar-se</a>
+                            <a href="cadastro_cliente.php" class="btn botoes-custom">Cadastrar-se</a>
                         </div>
                     </div>
                 </div>

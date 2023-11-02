@@ -29,7 +29,7 @@ include('php/definicoes.php')
                     <h5 class="card-title titulo-card-custom">Entrar como:</h5>
                     <div class="login-box">
                         <div class="botao-login">
-                            <a type="button" href="menu-principal.php" class="btn botoes-custom">Cliente</a>
+                            <a type="button" href="login_cliente.php" class="btn botoes-custom">Cliente</a>
                         </div>
                         <div class="ou-custom">ou</div>
                         <div class="botao-cadastro">
