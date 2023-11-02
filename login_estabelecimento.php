@@ -30,7 +30,7 @@ include('php/definicoes.php')
                     <div class="login-box">
                         <form method="POST" action="validate/validacao_login_estabelecimento.php">
                             <div class="mb-3">
-                                <labelclass="form-label">Email</label>
+                                <label class="form-label">Email</label>
                                 <input type="email" class="form-control" required="true" name="email">
                             </div>
                             <div class="">

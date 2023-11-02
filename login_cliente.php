@@ -28,14 +28,14 @@ include('php/definicoes.php')
                 <div class="card-body">
                     <h5 class="card-title titulo-card-custom">Entrar como Cliente</h5>
                     <div class="login-box">
-                        <form>
+                        <form method="POST" action="validate/validacao_login_cliente.php">
                             <div class="mb-3">
                                 <labelclass="form-label">Email</label>
-                                <input type="email" class="form-control" required="true">
+                                <input type="email" class="form-control" required="true" name="email">
                             </div>
                             <div class="">
                                 <label class="form-label">Senha</label>
-                                <input type="password" class="form-control" required="true">
+                                <input type="password" class="form-control" required="true" name="senha">
                             </div>
                             <div class="esqueci-minha-senha">
                                 <a class="esqueci-minha-senha" href="password.php">Esqueci minha senha</a>
