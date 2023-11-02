@@ -1,0 +1,19 @@
+html,.body{
+    background-color: #f5f5f5;
+}
+.navbar-custom{
+    background-color: #ff0000;
+}
+.titulo-navbar-custom, .titulo-navbar-custom:hover{
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+}
+.links-navbar-custom, .links-navbar-custom:hover{
+    color: #fff;
+    font-family: Arial;
+    font-weight: normal;
+    text-decoration: none;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
