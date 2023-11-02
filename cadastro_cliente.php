@@ -28,24 +28,24 @@ include('php/definicoes.php')
                 <div class="card-body">
                     <h5 class="card-title titulo-card-custom">Cadastrar Cliente</h5>
                     <div class="login-box">
-                        <form>
+                        <form method="POST" action="validate/validacao_cadastro_cliente.php">
                             <p class="categoria-cadastro">Informações Principais</p>
                             <div class="mb-3">
                                 <label class="form-label">Nome Completo</label>
-                                <input type="text" class="form-control" required="true">
+                                <input type="text" class="form-control" required="true" name="nome">
                             </div>
                             <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">Email</label>
-                                <input type="email" class="form-control" required="true">
+                                <input type="email" class="form-control" required="true" name="email">
                             </div>
                             <div class="mb-3">
                                 <label for="exampleInputPassword1" class="form-label">Senha</label>
-                                <input type="password" class="form-control" required="true">
+                                <input type="password" class="form-control" required="true" name="senha">
                             </div>
                             <p class="categoria-cadastro">Contato</p>
                             <div class="mb-3">
                                 <label class="form-label">Celular</label>
-                                <input type="number" class="form-control" required="true">
+                                <input type="number" class="form-control" required="true" name="contato">
                             </div>
                             <p class="categoria-cadastro">Endereço</p>
                             <div class="mb-3">

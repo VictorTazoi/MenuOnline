@@ -28,41 +28,41 @@ include('php/definicoes.php')
                 <div class="card-body">
                     <h5 class="card-title titulo-card-custom">Cadastrar Estabelecimento</h5>
                     <div class="login-box">
-                        <form>
+                        <form method="POST" action="validate/validacao_cadastro_estabelecimento.php">
                             <p class="categoria-cadastro">Informações Principais</p>
                             <div class="mb-3">
                                 <label class="form-label">Nome do Estabelecimento</label>
-                                <input type="text" class="form-control" required="true">
+                                <input type="text" class="form-control" required="true" name="nome" placeholder="Ex: Restaurante Nova Europa">
                             </div>
                             <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">Email</label>
-                                <input type="email" class="form-control" required="true">
+                                <input type="email" class="form-control" required="true" name="email" placeholder="Ex: exemplo@email.com">
                             </div>
                             <div class="mb-3">
                                 <label for="exampleInputPassword1" class="form-label">Senha</label>
-                                <input type="password" class="form-control" required="true">
+                                <input type="password" class="form-control" required="true" name="senha">
                             </div>
                             <p class="categoria-cadastro">Contato</p>
                             <div class="mb-3">
                                 <label class="form-label">Celular/Telefone 1</label>
-                                <input type="number" class="form-control" required="true">
+                                <input type="number" class="form-control" required="true" name="contato1" placeholder="Ex: 19999999999">
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Celular/Telefone 2</label>
-                                <input type="number" class="form-control">
+                                <input type="number" class="form-control" name="contato2" placeholder="Ex: 19999999999">
                             </div>
                             <p class="categoria-cadastro">Endereço</p>
                             <div class="mb-3">
                                 <label class="form-label">Rua</label>
-                                <input type="text" class="form-control" required="true">
+                                <input type="text" class="form-control" required="true" name="rua">
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Número</label>
-                                <input type="number" class="form-control" required="true">
+                                <input type="number" class="form-control" required="true" name="numero">
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Bairro</label>
-                                <input type="text" class="form-control" required="true">
+                                <input type="text" class="form-control" required="true" name="bairro">
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Cidade</label>
@@ -73,7 +73,7 @@ include('php/definicoes.php')
                             <p class="categoria-cadastro">Informações Adicionais</p>
                             <div class="mb-3">
                                 <label class="form-label">Dias e Horários de Funcionamento</label>
-                                <textarea type="text" class="form-control"></textarea>
+                                <textarea type="text" class="form-control" name="funcionamento"></textarea>
                             </div>
 
                             <div class="botao-login">
