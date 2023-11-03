@@ -16,6 +16,6 @@ $array_est = mysqli_fetch_array($query_est);
 
 $linhas = mysqli_num_rows($query_est);
 if($linhas > 0){
-    echo("LOGIN BEM SUCEDIDO");
+    header("Location: ../gerencia_estabelecimento.php");
 }
 ?>
